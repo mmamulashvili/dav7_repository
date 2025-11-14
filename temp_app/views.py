@@ -11,7 +11,7 @@ def info_view(request):
 
 def hobbies_view(request):
     hobbies = ["coding", "reading", "gaming"]
-    grade = 12
+    grade = 9
     context = {
         "hobbies": hobbies,
         "grade": grade
