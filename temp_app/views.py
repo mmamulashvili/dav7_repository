@@ -2,15 +2,15 @@ from django.shortcuts import render
 
 def info_view(request):
     context = {
-        "name": "თქვენი სახელი",
-        "surname": "თქვენი გვარი",
-        "age": 17,
-        "height": 180,
+        "name": "მარიამი",
+        "surname": "მამულაშვილი",
+        "age": 14,
+        "height": 165,
     }
     return render(request, 'info.html', context)
 
 def hobbies_view(request):
-    hobbies = ["coding", "reading", "gaming"]
+    hobbies = ["coding", "listen to music", "dancing"]
     grade = 9
     context = {
         "hobbies": hobbies,
